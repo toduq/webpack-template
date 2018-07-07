@@ -1,10 +1,10 @@
-// yarn add apply-loader autoprefixer babel-core babel-loader babel-preset-env css-loader copy-webpack-plugin extract-text-webpack-plugin@next
-// yarn add globule node-sass postcss-loader pug pug-loader sass-loader webpack webpack-cli webpack-serve
-
 const path = require('path')
 const globule = require('globule')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+
+// Dependencies
+// yarn add apply-loader autoprefixer babel-core babel-loader babel-preset-env css-loader copy-webpack-plugin extract-text-webpack-plugin@next globule node-sass postcss-loader pug pug-loader raw-loader sass-loader webpack webpack-cli webpack-serve
 
 const opts = {
   src: path.join(__dirname, 'src'),
